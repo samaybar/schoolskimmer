@@ -84,11 +84,13 @@ auto-redeploys.
 3. **Add the slug to the `order` array** at the bottom of `data/schools.js`.
    Order controls appearance on the homepage and the column order in compare.
 
-4. **Check the comparison copy.** `renderCompare()` in `lib/render.js` has two
-   pieces of hand-written prose — the hero `lead` and the two "short version"
-   paragraphs. These summarize the specific schools, so update them to include
-   the new school (the rest of compare is generated automatically). The compare
-   `<h1>` is auto-built from shortNames; no change needed there.
+4. **Check the comparison copy.** `renderCompare()` in `lib/render.js` has the
+   hero `lead` and two "short version" paragraphs written by hand to summarize
+   the specific set of schools. Update them when adding a school. Note the set is
+   no longer just the "Little Three" liberal arts colleges — Carnegie Mellon is a
+   research university — so keep the framing accurate to whatever mix is present
+   (don't call them all liberal arts colleges). The compare `<h1>` is a static
+   "Compare the schools" and needs no change.
 
 5. **Validate locally before pushing:**
    ```
