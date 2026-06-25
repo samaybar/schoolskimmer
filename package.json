@@ -1,0 +1,7 @@
+{
+  "name": "schoolskimmer",
+  "version": "1.0.0",
+  "description": "Factual college guides for high school seniors",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}
