@@ -68,6 +68,12 @@ auto-redeploys.
      aid, Need-blind, Athletics.
    - `video {id, title, caption}` — the tour video. Optional `video2` for a
      second embed (Williams uses one in its visit section via `useVideo2: true`).
+     **`video` is optional**: if a school has no official YouTube tour (e.g.
+     Carnegie Mellon, which uses its own 360° tour platform), omit `video` and
+     instead set `virtualTour: "<url>"`. The "Start here" section adapts: it
+     shows the embed if `video` exists, else links the `virtualTour`, else falls
+     back to generic copy. Do NOT pass off a student/third-party vlog as the
+     official video.
    - `sections[]` — the six guide sections. Standard order: Academics (`01`),
      signature feature (`02`), Cost & aid (`03`), Campus life (`04`), Visiting
      (`05`), Applying (`06`). Each section supports: `id, num, eyebrow, h,
