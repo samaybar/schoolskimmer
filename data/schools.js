@@ -448,6 +448,148 @@ const schools = {
       },
     ],
   },
+
+  cmu: {
+    slug: "cmu",
+    name: "Carnegie Mellon University",
+    shortName: "Carnegie Mellon",
+    mascot: "Tartans",
+    town: "Pittsburgh, Pennsylvania",
+    setting: "Urban — the Oakland neighborhood of Pittsburgh",
+    accent: "#a6192e",
+    accentDeep: "#6f1020",
+    founded: 1900,
+    tagline: "A research university where you apply to one of seven colleges.",
+    summary:
+      "Carnegie Mellon is a private research university of roughly 7,800 undergraduates in Pittsburgh. Unlike a liberal arts college, it is a collection of seven schools and colleges — and you apply directly into one, which is the single most important thing to understand about it.",
+    virtualTour: "https://admission.cmu.edu/portal/virtual_tours",
+    stats: [
+      { n: "~7,800", l: "Undergraduates" },
+      { n: "6:1", l: "Student–faculty ratio" },
+      { n: "7", l: "Schools & colleges" },
+      { n: "~11%", l: "Admit rate, Class of '29" },
+    ],
+    compare: {
+      "Undergrad enrollment": "~7,800",
+      "Student–faculty ratio": "6:1",
+      "Academic structure": "Apply directly into 1 of 7 colleges; admission is by college",
+      "Signature feature": "Specialized colleges (CS, engineering, drama, art, business)",
+      "Calendar": "Semester (fall, spring)",
+      "Setting": "Urban — Pittsburgh",
+      "Consortium": "None (standalone research university)",
+      "Admit rate (Class of '29)": "~11% overall (varies sharply by college)",
+      "Testing policy": "Varies by college (SCS requires; most test-flexible; CFA test-optional)",
+      "Financial aid": "Meets need for admitted students; not need-blind",
+      "Need-blind": "No",
+      "Athletics": "NCAA Division III, University Athletic Association",
+    },
+    sections: [
+      {
+        id: "academics",
+        num: "01",
+        eyebrow: "Academics",
+        h: "Seven colleges, and you pick one to apply to",
+        body: [
+          "The defining fact about Carnegie Mellon is that you don't apply to the university at large — you apply directly into one of its <strong>seven undergraduate schools and colleges</strong>: the School of Computer Science, the College of Engineering, the Dietrich College of Humanities and Social Sciences, the Mellon College of Science, the Tepper School of Business, the College of Fine Arts, and the Heinz College's Information Systems program. Each admits its own class with its own criteria.",
+          "This makes CMU more like a set of specialized professional schools than a unified liberal arts college. It is best known for programs that are among the strongest in the country — computer science, engineering, robotics, drama, and design — often paired across disciplines (the famous example being the overlap of technology and the arts).",
+        ],
+        subhead: "What to look at",
+        list: [
+          "Which college fits you — this is the central decision. A strong applicant to one college may not be competitive for another, and switching after enrollment (especially into Computer Science) is difficult.",
+          "The intensity. CMU has a reputation for a demanding, high-workload culture, particularly in its STEM colleges.",
+          "Whether you want depth in a specialized field over the breadth of a general liberal arts education — that's the core tradeoff versus a school like Williams or Amherst.",
+        ],
+        links: [
+          { href: "https://www.cmu.edu/admission/academics", t: "Colleges & Programs", d: "The seven colleges" },
+          { href: "https://www.cmu.edu/", t: "Carnegie Mellon", d: "University overview" },
+        ],
+      },
+      {
+        id: "signature",
+        num: "02",
+        eyebrow: "The signature feature",
+        h: "Admission is by college — and that changes everything",
+        body: [
+          "Because admission is by individual college, CMU's overall admit rate (around 11% for the Class of 2029) is misleading. The School of Computer Science admits well under 5% — on par with the most selective universities in the country — while some humanities and science programs admit a much larger share. The college you choose largely determines the bar you face.",
+          "You can typically apply to up to two CMU colleges, but most applicants are admitted to one at most. Picking the right college (and a sensible second choice) is the single most strategic decision in a CMU application — far more so than at a school with one undivided admissions process.",
+        ],
+        callout: {
+          h: "Verify before you apply",
+          body:
+            "Admit rates, the two-college application rules, and internal-transfer policies change. Confirm the current rules on the official admission site, and check the specific college you're targeting — the university-wide number won't tell you what you actually face.",
+        },
+        links: [
+          { href: "https://www.cmu.edu/admission/admission/undergraduate-admission-requirements", t: "Admission Requirements", d: "By college" },
+        ],
+      },
+      {
+        id: "aid",
+        num: "03",
+        eyebrow: "Cost & financial aid",
+        h: "What it costs, and what it might actually cost you",
+        body: [
+          "Carnegie Mellon meets the demonstrated financial need of admitted students, but — unlike the Little Three schools — it is <strong>not need-blind</strong>, meaning ability to pay can factor into admission decisions at the margins. Aid packages may include loans as well as grants. Around 39% of first-year students receive need-based aid.",
+          "Run the <strong>Net Price Calculator</strong> with your family's real numbers before drawing conclusions from the roughly $90,000 published cost. Note that CMU requires the CSS Profile (not just the FAFSA) for institutional aid.",
+        ],
+        links: [
+          { href: "https://www.cmu.edu/sfs/", t: "Student Financial Aid", d: "Official hub" },
+          { href: "https://www.cmu.edu/sfs/financial-aid/estimate/index.html", t: "Net Price Calculator", d: "Estimate your real cost" },
+        ],
+      },
+      {
+        id: "life",
+        num: "04",
+        eyebrow: "Campus life",
+        h: "Where you'll live, and what there is to do",
+        body: [
+          "CMU sits on a compact 140-acre urban campus in Pittsburgh's Oakland neighborhood, next to the University of Pittsburgh and the Carnegie museums. Roughly half of undergraduates live in university housing. Pittsburgh is a real, affordable city, which gives campus life a different texture than a self-contained rural or small-town college.",
+        ],
+        subhead: "Athletics, traditions, and culture",
+        body2: [
+          "CMU competes in NCAA Division III (the University Athletic Association), so athletics is present but not the center of gravity — this is not a big-sports school. Its traditions instead include things like <strong>The Fence</strong> (reputedly the world's most-painted object) and the annual Spring Carnival with student-built buggy races.",
+          "The culture is widely described as intense and academically driven, strongest for self-directed students who came for a specific field. Social life can take more effort to find than at a small residential college.",
+        ],
+        links: [
+          { href: "https://www.cmu.edu/student-experience/", t: "Student Experience", d: "Housing, clubs, life" },
+          { href: "https://athletics.cmu.edu/", t: "CMU Athletics (Tartans)", d: "Varsity and club sports" },
+        ],
+      },
+      {
+        id: "visit",
+        num: "05",
+        eyebrow: "Seeing it for yourself",
+        h: "Visiting, virtually or in person",
+        body: [
+          "CMU runs student-led campus tours, information sessions, and one-on-one admission counseling sessions. If you can't get to Pittsburgh, it offers live virtual tours and an official self-guided 360° virtual tour you can explore online.",
+          "Worth knowing: CMU explicitly does <strong>not</strong> consider demonstrated interest, so visiting won't affect your odds — go because it helps you judge fit, not to signal interest.",
+        ],
+        links: [
+          { href: "https://www.cmu.edu/visit/", t: "Visit CMU", d: "Tours and info sessions" },
+          { href: "https://admission.cmu.edu/portal/virtual_tours", t: "Virtual Tours", d: "Official 360° tour" },
+          { href: "https://www.cmu.edu/admission/", t: "Office of Admission", d: "For prospective students" },
+        ],
+      },
+      {
+        id: "apply",
+        num: "06",
+        eyebrow: "Applying",
+        h: "What the application looks like",
+        body: [
+          "CMU admitted about 11% of applicants to the Class of 2029 overall, but remember that figure hides enormous variation by college. It accepts the Common Application, plus a CMU-specific supplement, and offers binding Early Decision (which carries a modest statistical advantage). Testing requirements depend on the college: the School of Computer Science requires the SAT or ACT, most other colleges are test-flexible (you choose which scores to submit), and the College of Fine Arts is test-optional but requires a portfolio or audition.",
+          "Fine Arts applicants face an earlier timeline and portfolio/audition requirements, so check those dates carefully. As at any binding-ED school, only apply ED if CMU is a clear first choice and you've confirmed the cost works.",
+        ],
+        callout: {
+          h: "Before you apply, ask yourself",
+          body:
+            "Which of the seven colleges is genuinely the right fit — and is it one you'd commit to? Do you want specialized depth over liberal arts breadth? Are you comfortable in an intense, high-workload, urban research-university environment?",
+        },
+        links: [
+          { href: "https://www.cmu.edu/admission/apply", t: "How to Apply", d: "Deadlines & requirements" },
+          { href: "https://www.cmu.edu/admission/", t: "Office of Admission", d: "Apply & connect" },
+        ],
+      },
+    ],
+  },
 };
 
 // Order schools appear in lists/compare.
