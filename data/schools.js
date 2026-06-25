@@ -303,6 +303,151 @@ const schools = {
       },
     ],
   },
+
+  wesleyan: {
+    slug: "wesleyan",
+    name: "Wesleyan University",
+    shortName: "Wesleyan",
+    mascot: "Cardinals",
+    town: "Middletown, Connecticut",
+    setting: "Small city — central Connecticut, on the Connecticut River",
+    accent: "#8a1c1c",
+    accentDeep: "#5e1010",
+    founded: 1831,
+    tagline: "An open curriculum with a strong arts and film culture.",
+    summary:
+      "Wesleyan is a residential liberal arts university of roughly 3,000 undergraduates in Middletown, Connecticut. It pairs an open curriculum with a distinctive arts, film, and social-engagement culture — and is notably larger than its Little Three rivals, Williams and Amherst.",
+    stats: [
+      { n: "~3,000", l: "Undergraduates" },
+      { n: "8:1", l: "Student–faculty ratio" },
+      { n: "0", l: "Distribution requirements" },
+      { n: "~16%", l: "Admit rate, Class of '29" },
+    ],
+    compare: {
+      "Undergrad enrollment": "~3,000",
+      "Student–faculty ratio": "8:1",
+      "Academic structure": "Open curriculum — expected (not required) breadth",
+      "Signature feature": "Open curriculum + arts/film culture",
+      "Calendar": "Semester (fall, spring)",
+      "Setting": "Small city — Middletown, CT",
+      "Consortium": "None (standalone)",
+      "Admit rate (Class of '29)": "~16%",
+      "Testing policy": "Test-optional (since 2014)",
+      "Financial aid": "Meets 100% of need",
+      "Need-blind": "Domestic applicants",
+      "Athletics": "NCAA Division III, NESCAC",
+    },
+    video: {
+      id: "F91nYGi8Ot0",
+      title: "Wesleyan University Campus Tour",
+      caption: "Wesleyan University official YouTube channel.",
+    },
+    sections: [
+      {
+        id: "academics",
+        num: "01",
+        eyebrow: "Academics",
+        h: "The open curriculum, Wesleyan's version",
+        body: [
+          "Like Amherst, Wesleyan has an <strong>open curriculum</strong>: no required core and no distribution requirements. But Wesleyan frames it slightly differently — students are <em>expected</em> to pursue breadth across three broad areas (humanities, sciences/math, and social sciences), and the registration system nudges you toward it, even though nothing is strictly mandated outside your major.",
+          "Wesleyan is also a <strong>university</strong>, not just a college: it grants some master's and doctoral degrees and is larger than Williams or Amherst, with roughly 3,000 undergraduates. That scale shows up as a deeper course catalog and more specialized offerings, particularly in the arts.",
+        ],
+        subhead: "What to look at",
+        list: [
+          "Whether you want the freedom of an open curriculum — the same central question as Amherst, but here paired with a larger course catalog.",
+          "Strength in the arts: film, music, theater, and creative writing are signature areas. The College of Film and the Moving Image is unusually strong for a school this size.",
+          "Interdisciplinary 'Colleges' (e.g. the College of Social Studies, College of Letters) — selective, intensive programs within the university.",
+        ],
+        links: [
+          { href: "https://www.wesleyan.edu/academics/", t: "Academics at Wesleyan", d: "Official overview" },
+          { href: "https://www.wesleyan.edu/academics/curriculum.html", t: "The Wesleyan Curriculum", d: "How the open curriculum works" },
+        ],
+      },
+      {
+        id: "signature",
+        num: "02",
+        eyebrow: "The signature feature",
+        h: "A creative and social-engagement culture",
+        body: [
+          "Wesleyan's distinguishing trait isn't a single program — it's an institutional identity. It has an outsized reputation in film and the arts (its alumni are well represented in the entertainment industry), a politically engaged and activist student body, and a culture that values creative and intellectual seriousness over conventional polish.",
+          "This is the axis on which Wesleyan separates itself from Williams and Amherst. The three are academic peers, but Wesleyan self-selects for a particular kind of student. If that creative, socially engaged identity resonates, it's a strong signal of fit; if it doesn't, that matters too.",
+        ],
+        callout: {
+          h: "One thing to verify",
+          body:
+            "Wesleyan eliminated legacy preference in admissions in 2023, one of the first selective universities to do so. If that policy matters to you either way, confirm the current state on the official admission site.",
+        },
+        links: [
+          { href: "https://www.wesleyan.edu/admission/", t: "Admission overview", d: "Identity and culture" },
+        ],
+      },
+      {
+        id: "aid",
+        num: "03",
+        eyebrow: "Cost & financial aid",
+        h: "What it costs, and what it might actually cost you",
+        body: [
+          "Wesleyan meets 100% of demonstrated financial need for admitted students. Around 44% of a recent entering class applied for need-based aid. As at any of these schools, the published cost of attendance — approaching $90,000 a year — is not what most aided families actually pay.",
+          "Run the <strong>Net Price Calculator</strong> with your real numbers first. This matters especially at Wesleyan because a large share of the class is admitted through binding Early Decision, and you should only apply ED once you've confirmed the aid math works.",
+        ],
+        links: [
+          { href: "https://www.wesleyan.edu/finaid/", t: "Financial Aid", d: "Official hub" },
+          { href: "https://www.wesleyan.edu/finaid/calculator.html", t: "Net Price Calculator", d: "Estimate your real cost" },
+        ],
+      },
+      {
+        id: "life",
+        num: "04",
+        eyebrow: "Campus life",
+        h: "Where you'll live, and what there is to do",
+        body: [
+          "Wesleyan is residential, on a 316-acre campus in Middletown, a small Connecticut city on the Connecticut River roughly midway between New York and Boston. The setting is more town-and-city than Williams's mountains or Amherst's valley, and program housing — themed houses organized around shared interests — is a notable part of residential life.",
+        ],
+        subhead: "Athletics and the Little Three",
+        body2: [
+          "Wesleyan competes in NCAA Division III in the NESCAC. With Williams and Amherst, it forms the <strong>\"Little Three,\"</strong> a rivalry dating to the 19th century. Athletically Wesleyan is the least dominant of the three, consistent with its more arts-and-activism-forward identity.",
+          "The arts scene is a defining part of campus life: student films, theater, and music are central rather than peripheral.",
+        ],
+        links: [
+          { href: "https://www.wesleyan.edu/studentaffairs/", t: "Student Affairs", d: "Housing, clubs, dining" },
+          { href: "https://athletics.wesleyan.edu/", t: "Wesleyan Athletics (Cardinals)", d: "Varsity and club sports" },
+        ],
+      },
+      {
+        id: "visit",
+        num: "05",
+        eyebrow: "Seeing it for yourself",
+        h: "Visiting, virtually or in person",
+        body: [
+          "Wesleyan runs campus tours, information sessions, and day-visit programs. Admitted students are invited to <strong>WesFest</strong>, a multi-day April program with classes, performances, and panels; a Travel Assistance Program helps students with the greatest financial need attend.",
+        ],
+        links: [
+          { href: "https://www.wesleyan.edu/admission/visit.html", t: "Visit Wesleyan", d: "Tours and info sessions" },
+          { href: "https://www.wesleyan.edu/admission/", t: "Office of Admission", d: "For prospective students" },
+          { href: "https://www.youtube.com/user/wesleyanu", t: "Official YouTube channel", d: "More video" },
+        ],
+      },
+      {
+        id: "apply",
+        num: "06",
+        eyebrow: "Applying",
+        h: "What the application looks like",
+        body: [
+          "Wesleyan admitted about 16% of applicants to the Class of 2029 — the most accessible of the Little Three on paper, though its pool self-selects heavily. It accepts the Common Application and QuestBridge, and has been test-optional since 2014. A majority of the entering class is admitted through binding Early Decision (two rounds, ED I and ED II), so ED carries a real statistical advantage — but only use it if Wesleyan is a clear first choice and the aid math works.",
+          "Wesleyan eliminated legacy preference in 2023. Its supplement rewards applicants who can speak authentically to why Wesleyan's particular culture fits them.",
+        ],
+        callout: {
+          h: "Before you apply, ask yourself",
+          body:
+            "Does Wesleyan's creative, socially engaged identity match yours? Do you want an open curriculum, but at a larger school than Amherst? Is Early Decision the right strategic move, given how much of the class is filled that way?",
+        },
+        links: [
+          { href: "https://www.wesleyan.edu/admission/apply.html", t: "How to Apply", d: "Deadlines & requirements" },
+          { href: "https://www.wesleyan.edu/admission/class-profile.html", t: "Class Profile", d: "Who gets in" },
+        ],
+      },
+    ],
+  },
 };
 
 // Order schools appear in lists/compare.
