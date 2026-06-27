@@ -468,6 +468,10 @@ const schools = {
     mascot: "Tartans",
     town: "Pittsburgh, Pennsylvania",
     setting: "Urban — the Oakland neighborhood of Pittsburgh",
+    nearbyFood: {
+      mcdonalds: { addr: "3708 Forbes Ave, Pittsburgh, PA", miles: "~0.7 mi" },
+      dominos: { addr: "4631 Centre Ave, Pittsburgh, PA", miles: "~0.7 mi" },
+    },
     accent: "#a6192e",
     accentDeep: "#6f1020",
     founded: 1900,
