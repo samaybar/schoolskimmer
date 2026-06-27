@@ -319,6 +319,10 @@ const schools = {
     mascot: "Cardinals",
     town: "Middletown, Connecticut",
     setting: "Small city — central Connecticut, on the Connecticut River",
+    nearbyFood: {
+      mcdonalds: { addr: "611 S Main St, Middletown, CT", miles: "~1.1 mi" },
+      dominos: { addr: "370 S Main St, Middletown, CT", miles: "~0.8 mi" },
+    },
     accent: "#8a1c1c",
     accentDeep: "#5e1010",
     founded: 1831,
