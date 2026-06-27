@@ -10,6 +10,10 @@ const schools = {
     mascot: "Ephs",
     town: "Williamstown, Massachusetts",
     setting: "Rural — the Berkshire mountains, northwest corner of the state",
+    nearbyFood: {
+      mcdonalds: { addr: "17 Union St, North Adams, MA", miles: "~4.9 mi" },
+      dominos: { addr: "1 River St, North Adams, MA", miles: "~4.9 mi" },
+    },
     accent: "#500082",
     accentDeep: "#36005a",
     founded: 1793,
