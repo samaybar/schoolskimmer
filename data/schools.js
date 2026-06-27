@@ -169,6 +169,10 @@ const schools = {
     mascot: "Mammoths",
     town: "Amherst, Massachusetts",
     setting: "Small town — the Pioneer Valley, central-western Massachusetts",
+    nearbyFood: {
+      mcdonalds: { addr: "374 Russell St, Hadley, MA", miles: "~1.9 mi" },
+      dominos: { addr: "459 Russell St, Hadley, MA", miles: "~1.1 mi" },
+    },
     accent: "#3f1d70",
     accentDeep: "#2a1250",
     founded: 1821,
