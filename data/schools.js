@@ -606,6 +606,154 @@ const schools = {
       },
     ],
   },
+
+  bowdoin: {
+    slug: "bowdoin",
+    name: "Bowdoin College",
+    shortName: "Bowdoin",
+    mascot: "Polar Bears",
+    town: "Brunswick, Maine",
+    setting: "Small town — coastal Maine, half an hour from Portland",
+    nearbyFood: {
+      mcdonalds: { addr: "16 Old Bath Rd, Brunswick, ME", miles: "~1.4 mi" },
+      dominos: { addr: "14 Tibbetts Dr, Brunswick, ME", miles: "~1.6 mi" },
+    },
+    accent: "#0a5c8a",
+    accentDeep: "#063f5f",
+    founded: 1794,
+    tagline: "A coastal-Maine liberal arts college famous for its food and the outdoors.",
+    summary:
+      "Bowdoin is a residential liberal arts college of roughly 2,000 undergraduates in Brunswick, on the coast of Maine. It pairs a structured liberal arts curriculum with an outdoors-and-place-driven culture, an unusually strong arts and sciences faculty, and dining consistently ranked among the best in the country.",
+    stats: [
+      { n: "~1,950", l: "Undergraduates" },
+      { n: "9:1", l: "Student–faculty ratio" },
+      { n: "5", l: "Distribution areas" },
+      { n: "~6.8%", l: "Admit rate, Class of '29" },
+    ],
+    compare: {
+      "Undergrad enrollment": "~1,950",
+      "Student–faculty ratio": "9:1",
+      "Academic structure": "First-year writing seminar + 5 distribution areas",
+      "Signature feature": "Coastal-Maine setting, outdoors culture, top-ranked dining",
+      "Calendar": "Semester (fall, spring)",
+      "Setting": "Small town — coastal Maine",
+      "Consortium": "CBB (Colby–Bates–Bowdoin) — athletics & library exchange",
+      "Admit rate (Class of '29)": "~6.8%",
+      "Testing policy": "Test-optional (since 1969 — the first in the U.S.)",
+      "Financial aid": "Meets 100% of need; no-loan packages",
+      "Need-blind": "Domestic applicants",
+      "Athletics": "NCAA Division III, NESCAC",
+    },
+    virtualTour: "https://www.bowdoin.edu/admissions/visit/virtual-tour/index.html",
+    sections: [
+      {
+        id: "academics",
+        num: "01",
+        eyebrow: "Academics",
+        h: "A structured liberal arts curriculum",
+        body: [
+          "Bowdoin is not an open-curriculum school like Amherst or Wesleyan, but its requirements are light. Every student takes one <strong>first-year writing seminar</strong> — a small, writing-intensive class of about 16 students on a focused topic — and at least one course in each of <strong>five distribution areas</strong>: quantitative reasoning; inquiry in the natural sciences; difference, power, and inequity; international perspectives; and the visual and performing arts. Beyond that and your major, you choose freely. The degree is 32 credits.",
+          "Students declare a major in the spring of sophomore year, choosing from roughly 40+ programs. For a college this size, several departments punch above their weight — Earth and oceanographic science, neuroscience, government, economics, and digital/computational studies among them — and undergraduate research with faculty is a core part of the experience.",
+        ],
+        subhead: "What to look at",
+        list: [
+          "Whether you want a little structure (Bowdoin's distribution model) versus a fully open curriculum (Amherst, Wesleyan) versus tutorials (Williams).",
+          "The first-year writing seminars — pick one that interests you, not necessarily your intended major; the small-class start is a real feature.",
+          "Bowdoin's coastal-science assets: the Schiller Coastal Studies Center and the Kent Island field station are unusual research resources for an undergraduate college.",
+        ],
+        links: [
+          { href: "https://www.bowdoin.edu/academics/", t: "Academics at Bowdoin", d: "Official overview" },
+          { href: "https://www.bowdoin.edu/academics/the-bowdoin-curriculum/", t: "The Bowdoin Curriculum", d: "Requirements & distribution areas" },
+          { href: "https://www.bowdoin.edu/academics/the-bowdoin-curriculum/first-year-seminars/", t: "First-Year Writing Seminars", d: "How the first-year start works" },
+        ],
+      },
+      {
+        id: "signature",
+        num: "02",
+        eyebrow: "The signature feature",
+        h: "Place, the outdoors, and a culture of community",
+        body: [
+          "Bowdoin's distinguishing trait is its relationship to <strong>place</strong>. The campus sits in coastal Maine, minutes from the Atlantic and a short drive from mountains, lakes, and rivers — and the college's identity is built around that. The <strong>Bowdoin Outing Club</strong>, one of the oldest in the country, runs well over a hundred trips a year, and pre-orientation outdoor trips are how many students begin college.",
+          "Two other things stand out. Bowdoin's <strong>dining</strong> is routinely ranked the best of any U.S. college — not a trivial point when you eat there for four years. And the culture is consistently described as collaborative rather than cutthroat, organized around the college's informal motto, \"the common good.\"",
+        ],
+        callout: {
+          h: "The Polar Bear, and the CBB rivalry",
+          body:
+            'Bowdoin\'s mascot honors alumnus Robert Peary\'s North Pole expedition. Athletically, Bowdoin competes in the NESCAC and shares the historic <strong>CBB</strong> rivalry and library exchange with Colby and Bates — Maine\'s three elite liberal arts colleges. If you\'re weighing Bowdoin, you\'re often weighing it against those two.',
+        },
+        links: [
+          { href: "https://www.bowdoin.edu/outing-club/", t: "Bowdoin Outing Club", d: "Trips and the outdoors" },
+          { href: "https://www.bowdoin.edu/dining/", t: "Bowdoin Dining", d: "The award-winning food" },
+        ],
+      },
+      {
+        id: "aid",
+        num: "03",
+        eyebrow: "Cost & financial aid",
+        h: "What it costs, and what it might actually cost you",
+        body: [
+          "Like its peers, Bowdoin meets 100% of demonstrated financial need and meets it with grants rather than loans — admitted students graduate without need-based debt from the college. Bowdoin is need-blind for domestic applicants. About half of each class receives need-based aid. One distinctive extra: through its Digital Excellence Commitment, the college provides every enrolled student a MacBook Pro, iPad, and Apple Pencil.",
+          "As always, the published cost of attendance — approaching $90,000 — is not what most aided families pay. Run the <strong>Net Price Calculator</strong> with your real numbers before drawing any conclusion, and do it before applying Early Decision.",
+        ],
+        links: [
+          { href: "https://www.bowdoin.edu/admissions/financial-aid/", t: "Financial Aid", d: "Official hub" },
+          { href: "https://www.bowdoin.edu/admissions/financial-aid/calculators/", t: "Net Price Calculator", d: "Estimate your real cost" },
+        ],
+      },
+      {
+        id: "life",
+        num: "04",
+        eyebrow: "Campus life",
+        h: "Where you'll live, and what there is to do",
+        body: [
+          "Bowdoin is residential, on a roughly 215-acre campus known for its New England architecture and Maine foliage. First-years live in dorms grouped into a college-house system that anchors social life; the college phased out fraternities in 2000. The town of Brunswick is a walkable Maine college town with a working main street, and Portland is about a half-hour away by car, bus, or Amtrak.",
+        ],
+        subhead: "Athletics, the outdoors, and the arts",
+        body2: [
+          "Bowdoin competes in NCAA Division III in the NESCAC, with 30+ varsity teams plus strong club and intramural programs and a nationally competitive sailing team — fitting for a coastal school. The Outing Club is central to campus life rather than peripheral.",
+          'The college also houses two notable museums — the <a href="https://www.bowdoin.edu/art-museum/">Bowdoin College Museum of Art</a> and the <a href="https://www.bowdoin.edu/arctic-museum/">Peary-MacMillan Arctic Museum</a> — unusual cultural resources for a school this size.',
+        ],
+        links: [
+          { href: "https://www.bowdoin.edu/student-life/", t: "Student Life", d: "Housing, clubs, dining" },
+          { href: "https://athletics.bowdoin.edu/", t: "Bowdoin Athletics (Polar Bears)", d: "Varsity and club sports" },
+        ],
+      },
+      {
+        id: "visit",
+        num: "05",
+        eyebrow: "Seeing it for yourself",
+        h: "Visiting, virtually or in person",
+        body: [
+          "A campus visit is the best way to judge fit, and Bowdoin runs information sessions and student-led tours, plus optional evaluative interviews (which Bowdoin recommends). Admitted students are invited to spring yield events — Bowdoin Bearings and the one-day Polar Preview.",
+          "If you can't get to Maine, the college's official self-guided virtual tour, linked above, mirrors the on-campus tour and is a good substitute from a distance.",
+        ],
+        links: [
+          { href: "https://www.bowdoin.edu/admissions/visit/", t: "Visit Bowdoin", d: "Tours and info sessions" },
+          { href: "https://www.bowdoin.edu/admissions/visit/virtual-tour/index.html", t: "Virtual Tour", d: "Official self-guided tour" },
+          { href: "https://www.youtube.com/c/bowdoincollege", t: "Official YouTube channel", d: "More video" },
+        ],
+      },
+      {
+        id: "apply",
+        num: "06",
+        eyebrow: "Applying",
+        h: "What the application looks like",
+        body: [
+          "Bowdoin is highly selective: it admitted about 6.8% of applicants to the Class of 2029, a record low, from a pool of roughly 14,000. It accepts the Common Application and QuestBridge. Bowdoin was the first college in the country to go test-optional, back in 1969, and remains so — about half of recent admitted classes submitted no scores.",
+          "Bowdoin offers two binding Early Decision rounds (ED I and ED II), and the ED admit rate (~15%) runs far above Regular Decision (~5%), so ED carries a real statistical advantage — but only use it if Bowdoin is a clear first choice and the Net Price Calculator works for your family. Bowdoin recommends an evaluative interview, so plan for that.",
+        ],
+        callout: {
+          h: "Before you apply, ask yourself",
+          body:
+            "Does coastal Maine and an outdoors-forward culture appeal to you year-round, including the winters? Do you want some curricular structure rather than a fully open curriculum? Is Early Decision the right move, given how much advantage it carries here?",
+        },
+        links: [
+          { href: "https://www.bowdoin.edu/admissions/", t: "Admissions", d: "Deadlines & requirements" },
+          { href: "https://www.bowdoin.edu/admissions/apply/", t: "How to Apply", d: "Application steps" },
+        ],
+      },
+    ],
+  },
 };
 
 // Order schools appear in lists/compare.
