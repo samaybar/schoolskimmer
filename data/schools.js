@@ -757,6 +757,6 @@ const schools = {
 };
 
 // Order schools appear in lists/compare.
-const order = ["williams", "amherst", "wesleyan", "cmu"];
+const order = ["williams", "amherst", "wesleyan", "cmu", "bowdoin"];
 
 module.exports = { schools, order };
