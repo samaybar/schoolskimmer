@@ -615,8 +615,8 @@ const schools = {
     town: "Brunswick, Maine",
     setting: "Small town — coastal Maine, half an hour from Portland",
     nearbyFood: {
-      mcdonalds: { addr: "16 Old Bath Rd, Brunswick, ME", miles: "~1.4 mi" },
-      dominos: { addr: "14 Tibbetts Dr, Brunswick, ME", miles: "~1.6 mi" },
+      mcdonalds: { addr: "154 Pleasant St, Brunswick, ME", miles: "~1.2 mi" },
+      dominos: { addr: "208 Maine St, Brunswick, ME", miles: "~0.3 mi" },
     },
     accent: "#0a5c8a",
     accentDeep: "#063f5f",
