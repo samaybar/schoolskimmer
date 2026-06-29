@@ -173,6 +173,7 @@ const schools = {
     nearbyFood: {
       mcdonalds: { addr: "374 Russell St, Hadley, MA", miles: "~1.9 mi" },
       dominos: { addr: "459 Russell St, Hadley, MA", miles: "~1.1 mi" },
+      chickfila: { addr: "501 Memorial Dr, Chicopee, MA", miles: "~17 mi" },
     },
     accent: "#3f1d70",
     accentDeep: "#2a1250",
