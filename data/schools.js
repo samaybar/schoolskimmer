@@ -474,6 +474,7 @@ const schools = {
     nearbyFood: {
       mcdonalds: { addr: "3708 Forbes Ave, Pittsburgh, PA", miles: "~0.7 mi" },
       dominos: { addr: "4631 Centre Ave, Pittsburgh, PA", miles: "~0.7 mi" },
+      chickfila: { addr: "480 E Waterfront Dr, Homestead, PA", miles: "~4 mi" },
     },
     accent: "#a6192e",
     accentDeep: "#6f1020",
