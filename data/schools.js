@@ -13,6 +13,7 @@ const schools = {
     nearbyFood: {
       mcdonalds: { addr: "17 Union St, North Adams, MA", miles: "~4.9 mi" },
       dominos: { addr: "1 River St, North Adams, MA", miles: "~4.9 mi" },
+      chickfila: { addr: "502 N Greenbush Rd, Rensselaer, NY", miles: "~45 mi" },
     },
     accent: "#500082",
     accentDeep: "#36005a",
