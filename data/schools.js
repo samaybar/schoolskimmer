@@ -621,6 +621,7 @@ const schools = {
     nearbyFood: {
       mcdonalds: { addr: "154 Pleasant St, Brunswick, ME", miles: "~1.2 mi" },
       dominos: { addr: "208 Maine St, Brunswick, ME", miles: "~0.3 mi" },
+      chickfila: { addr: "94 Rock Row, Westbrook, ME", miles: "~22 mi" },
     },
     accent: "#0a5c8a",
     accentDeep: "#063f5f",
