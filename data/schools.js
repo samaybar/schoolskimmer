@@ -324,6 +324,7 @@ const schools = {
     nearbyFood: {
       mcdonalds: { addr: "611 S Main St, Middletown, CT", miles: "~1.1 mi" },
       dominos: { addr: "370 S Main St, Middletown, CT", miles: "~0.8 mi" },
+      chickfila: { addr: "3240 Berlin Tpke, Newington, CT", miles: "~10 mi" },
     },
     accent: "#8a1c1c",
     accentDeep: "#5e1010",
